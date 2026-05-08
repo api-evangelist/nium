@@ -1,0 +1,29 @@
+aid: nium
+url: https://raw.githubusercontent.com/api-evangelist/nium/refs/heads/main/apis.yml
+name: Nium
+x-type: company
+description: >-
+  Nium is a global payments infrastructure platform for cross-border payouts, collections, FX, and card issuing. Serves financial institutions, fintechs, and corporates with a single API.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Fintech
+  - Cross-Border
+  - Payments
+  - FX
+  - Issuing
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.nium.com/
+  - type: Plans
+    url: plans/nium-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/nium-rate-limits.yml
+  - type: FinOps
+    url: finops/nium-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
