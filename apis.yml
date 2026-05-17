@@ -1,7 +1,7 @@
 aid: nium
 url: https://raw.githubusercontent.com/api-evangelist/nium/refs/heads/main/apis.yml
 name: Nium
-x-type: company
+kind: company
 description: Nium is a global payments infrastructure platform for cross-border payouts, collections, FX, and card issuing.
   Serves financial institutions, fintechs, and corporates with a single API.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
