@@ -6,85 +6,89 @@ description: Nium is a global payments infrastructure platform for cross-border 
   Serves financial institutions, fintechs, and corporates with a single API.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Fintech
-- Cross-Border
-- Payments
-- FX
-- Issuing
+  - Fintech
+  - Cross-Border
+  - Payments
+  - FX
+  - Issuing
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
 apis:
-- name: Nium Payout API
-  description: Cross-border payouts to bank accounts, cards and wallets in 220+ countries with real-time delivery in 100+.
-  humanURL: https://docs.nium.com/apis
-  baseURL: https://gateway.nium.com/api
-  tags:
-  - Payouts
-  - Cross-Border
-  properties:
-  - type: Documentation
-    url: https://docs.nium.com/apis
-- name: Nium Payin API
-  description: Accept payments via bank transfers, cards and wallets across 35+ countries.
-  humanURL: https://docs.nium.com/apis
-  baseURL: https://gateway.nium.com/api
-  tags:
-  - Payins
-  - Collections
-  properties:
-  - type: Documentation
-    url: https://docs.nium.com/apis
-- name: Nium Wallet API
-  description: Multi-currency virtual wallets for storing and managing funds.
-  humanURL: https://docs.nium.com/apis
-  baseURL: https://gateway.nium.com/api
-  tags:
-  - Wallet
-  - Multi-Currency
-  properties:
-  - type: Documentation
-    url: https://docs.nium.com/apis
-- name: Nium Cards API
-  description: Issue and manage virtual and physical cards.
-  humanURL: https://docs.nium.com/apis
-  baseURL: https://gateway.nium.com/api
-  tags:
-  - Cards
-  - Issuing
-  properties:
-  - type: Documentation
-    url: https://docs.nium.com/apis
-- name: Nium FX API
-  description: Real-time foreign exchange quotes and conversions.
-  humanURL: https://docs.nium.com/apis
-  baseURL: https://gateway.nium.com/api
-  tags:
-  - FX
-  - Currency Conversion
-  properties:
-  - type: Documentation
-    url: https://docs.nium.com/apis
-- name: Nium Onboarding API
-  description: KYC/KYB onboarding flows for individuals and corporates.
-  humanURL: https://docs.nium.com/apis
-  baseURL: https://gateway.nium.com/api
-  tags:
-  - KYC
-  - KYB
-  - Onboarding
-  properties:
-  - type: Documentation
-    url: https://docs.nium.com/apis
+  - name: Nium Payout API
+    description: Cross-border payouts to bank accounts, cards and wallets in 220+ countries with real-time delivery in 100+.
+    humanURL: https://docs.nium.com/apis
+    baseURL: https://gateway.nium.com/api
+    tags:
+    - Payouts
+    - Cross-Border
+    properties:
+    - type: Documentation
+      url: https://docs.nium.com/apis
+  - name: Nium Payin API
+    description: Accept payments via bank transfers, cards and wallets across 35+ countries.
+    humanURL: https://docs.nium.com/apis
+    baseURL: https://gateway.nium.com/api
+    tags:
+    - Payins
+    - Collections
+    properties:
+    - type: Documentation
+      url: https://docs.nium.com/apis
+  - name: Nium Wallet API
+    description: Multi-currency virtual wallets for storing and managing funds.
+    humanURL: https://docs.nium.com/apis
+    baseURL: https://gateway.nium.com/api
+    tags:
+    - Wallet
+    - Multi-Currency
+    properties:
+    - type: Documentation
+      url: https://docs.nium.com/apis
+  - name: Nium Cards API
+    description: Issue and manage virtual and physical cards.
+    humanURL: https://docs.nium.com/apis
+    baseURL: https://gateway.nium.com/api
+    tags:
+    - Cards
+    - Issuing
+    properties:
+    - type: Documentation
+      url: https://docs.nium.com/apis
+  - name: Nium FX API
+    description: Real-time foreign exchange quotes and conversions.
+    humanURL: https://docs.nium.com/apis
+    baseURL: https://gateway.nium.com/api
+    tags:
+    - FX
+    - Currency Conversion
+    properties:
+    - type: Documentation
+      url: https://docs.nium.com/apis
+  - name: Nium Onboarding API
+    description: KYC/KYB onboarding flows for individuals and corporates.
+    humanURL: https://docs.nium.com/apis
+    baseURL: https://gateway.nium.com/api
+    tags:
+    - KYC
+    - KYB
+    - Onboarding
+    properties:
+    - type: Documentation
+      url: https://docs.nium.com/apis
 common:
-- type: Website
-  url: https://www.nium.com/
-- type: Plans
-  url: plans/nium-plans-pricing.yml
-- type: RateLimits
-  url: rate-limits/nium-rate-limits.yml
-- type: FinOps
-  url: finops/nium-finops.yml
+  - type: GitHubOrganization
+    url: https://github.com/nium-global
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/nium-global
+  - type: Website
+    url: https://www.nium.com/
+  - type: Plans
+    url: plans/nium-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/nium-rate-limits.yml
+  - type: FinOps
+    url: finops/nium-finops.yml
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
