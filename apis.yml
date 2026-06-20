@@ -4,7 +4,7 @@ name: Nium
 kind: company
 description: Nium is a global payments infrastructure platform for cross-border payouts, collections, FX, and card issuing.
   Serves financial institutions, fintechs, and corporates with a single API.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Fintech
   - Cross-Border
