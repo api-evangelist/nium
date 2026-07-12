@@ -92,3 +92,9 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+
+common:
+  - type: DomainSecurity
+    url: security/nium-domain-security.yml
+  - url: https://www.nium.com/blog
+    type: Blog
