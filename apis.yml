@@ -25,7 +25,7 @@ tags:
   - Issuing
 created: '2026-05-08'
 modified: '2026-05-08'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - name: Nium Payout API
     description: Cross-border payouts to bank accounts, cards and wallets in 220+ countries with real-time delivery in 100+.
