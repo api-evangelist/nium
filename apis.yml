@@ -43,6 +43,9 @@ apis:
     baseURL: https://gateway.nium.com/api
     tags:
     - Payins
+    - Collection
+    tags_raw:
+    - Payins
     - Collections
     properties:
     - type: Documentation
@@ -52,6 +55,9 @@ apis:
     humanURL: https://docs.nium.com/apis
     baseURL: https://gateway.nium.com/api
     tags:
+    - Wallets
+    - Multi-Currency
+    tags_raw:
     - Wallet
     - Multi-Currency
     properties:
