@@ -54,7 +54,7 @@ apis:
   humanURL: https://docs.nium.com/apis
   baseURL: https://gateway.nium.com/api
   tags:
-  - Payins
+  - Pay-In
   - Collection
   tags_raw:
   - Payins
