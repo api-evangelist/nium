@@ -32,6 +32,13 @@ tags:
 - Fintech
 - Cross-Border
 - Payments
+- Foreign Exchange
+- Issuing
+- Cross-Border Payments
+tags_raw:
+- Fintech
+- Cross-Border
+- Payments
 - FX
 - Issuing
 - Cross-Border Payments
@@ -91,6 +98,9 @@ apis:
   humanURL: https://docs.nium.com/apis
   baseURL: https://gateway.nium.com/api
   tags:
+  - Foreign Exchange
+  - Currency Conversion
+  tags_raw:
   - FX
   - Currency Conversion
   properties:
